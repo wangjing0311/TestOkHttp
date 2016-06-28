@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wj.testokhttp.MainActivity">
+
+    <Button
+        android:id="@+id/tv_one_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="Accessing Headers"/>
+
+    <Button
+        android:id="@+id/tv_two_post_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Posting a String" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_three_post_stream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="Posting a Stream" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_post_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Posting a File" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_post_params"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="Posting Params" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_post_multipart_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Posting multipart_request" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_parse_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="Parse Response" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_response_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Response cache" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_cancle_calls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="Cancle a call" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_time_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Time Out" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_per_call_con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="Per-call Configure" android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/tv_handle_auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:padding="8dp"
+        android:text="Handle Auth" android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>
