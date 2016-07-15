@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         okHttpReq();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_one_header--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_one_header--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_two_post_string:
                 new Thread(new Runnable() {
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postStringOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_two_post_string--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_two_post_string--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_three_post_stream:
                 new Thread(new Runnable() {
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postStreamOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_three_post_stream--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_three_post_stream--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_post_file:
                 new Thread(new Runnable() {
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postFileOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_post_file--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_post_file--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_post_params:
                 new Thread(new Runnable() {
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postParamsOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_post_params--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_post_params--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_post_multipart_request:
                 new Thread(new Runnable() {
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postMulParamsOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_post_multipart_request--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_post_multipart_request--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_parse_response:
                 new Thread(new Runnable() {
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         responseParseGsonOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_parse_response--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_parse_response--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_response_cache:
                 new Thread(new Runnable() {
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postStreamOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_one_header--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_one_header--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_cancle_calls:
                 new Thread(new Runnable() {
@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         postStreamOkHttp();
                     }
                 }).start();
-                Toast.makeText(this, "----tv_cancle_calls--调用--", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "tv_cancle_calls--调用--", Toast.LENGTH_LONG).show();
                 break;
             case R.id.tv_time_out:
                 new Thread(new Runnable() {
